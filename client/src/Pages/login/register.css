@@ -1,0 +1,168 @@
+.login_conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  /* background-image: url("../../assets/BG.svg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+}
+
+.login_wrapper {
+  box-sizing: border-box;
+  width: 35%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.login__form {
+  box-sizing: border-box;
+  width: 35%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 5px rgba(164, 162, 162, 0.1);
+}
+
+.register_login_title {
+  color: #4b456f;
+  margin: 25px 0px 10px;
+  text-align: center;
+}
+
+.login_form a {
+  color: chocolate;
+}
+
+.register_login_form_input {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.register_login_form_input input {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.register_login_form_input input:focus {
+  outline: none;
+  border-bottom: 2px solid #fe8402;
+}
+
+.email__input,
+.pass__input {
+  width: 80%;
+  padding: 10px 5px;
+  border: 1px solid #999999;
+  border-radius: 3px;
+  margin-bottom: -10px;
+}
+
+.register_login_form_input button {
+  width: 100%;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: #fe8402;
+  color: white;
+  margin: 20px 0px 15px;
+  font-size: 14px;
+}
+
+.register_login_form_input button:hover {
+  cursor: pointer;
+  background-color: #516cf0;
+  cursor: pointer;
+}
+
+.login__form a {
+  color: #fe8402;
+  margin-bottom: 70px;
+  text-decoration: none;
+}
+
+.login__form a:hover {
+  color: #da7000;
+}
+
+.register_user {
+  border: 1px solid #999;
+  border-radius: 3px;
+  margin-bottom: -10px;
+  padding: 10px 5px;
+  width: 100%;
+}
+
+.register_first_last {
+  display: flex;
+  justify-content: space-between;
+}
+
+.register_first {
+  border: 1px solid #999;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.register_last {
+  border: 1px solid #999;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.register_email {
+  border: 1px solid #999;
+  border-radius: 3px;
+  margin-bottom: -10px;
+  padding: 10px 5px;
+  width: 100%;
+}
+
+.register_password {
+  border: 1px solid #999;
+  border-radius: 3px;
+  margin-bottom: -10px;
+  padding: 10px 5px;
+  width: 100%;
+}
+
+.Evangadi_description {
+  color: #656565;
+  margin-left: 40px;
+  width: 35%;
+}
+
+.Evangadi_description {
+  display: inline;
+}
+
+.register_login_title small {
+  text-align: center;
+  margin: -5px 0 20px;
+  width: auto;
+}
+
+.login_wrapper small a {
+  color: #da7000;
+  text-decoration: none;
+}
+.iconContainer_register {
+  position: absolute;
+  right: 2%;
+  top: 77%;
+  transform: translateY(-70%);
+  cursor: pointer;
+}

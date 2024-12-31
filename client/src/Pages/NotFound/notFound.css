@@ -1,0 +1,9 @@
+.notFound {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.notFound_toHome {
+    color: #FF8500;
+    text-decoration: none;
+}

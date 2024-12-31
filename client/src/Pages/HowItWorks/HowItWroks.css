@@ -1,0 +1,73 @@
+/* src/components/HowToUse/HowToUse.css */
+
+.howto-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px 30px;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .howto-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #007bff;
+  }
+  
+  .howto-section {
+    margin-bottom: 30px;
+  }
+  
+  .howto-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .howto-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .howto-section ol,
+  .howto-section ul {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .howto-section ol li,
+  .howto-section ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .howto-section ol li::marker,
+  .howto-section ul li::marker {
+    color: #007bff; /* Change marker color */
+  }
+  
+  @media screen and (max-width: 800px) {
+    .howto-container {
+      margin: 20px;
+      padding: 15px 20px;
+    }
+  
+    .howto-title {
+      font-size: 28px;
+    }
+  
+    .howto-section h2 {
+      font-size: 20px;
+    }
+  
+    .howto-section p,
+    .howto-section ol li,
+    .howto-section ul li {
+      font-size: 14px;
+    }
+  }
+  
